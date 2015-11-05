@@ -44,7 +44,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <?php if ($this->zfcUserIdentity()): ?>
                             <li class="dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo $this->gravatar($this->zfcUserIdentity()->getEmail(), array ('img_size' => 24))->setAttribs(array ('class' => 'img-rounded')) ?>
+                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo $this->gravatar($this->zfcUserIdentity()->getEmail(), array ('img_size' => 18))->setAttribs(array ('class' => 'img-square')) ?>
                                 <?php echo $this->zfcUserDisplayName() ?> <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Profile</a></li>
