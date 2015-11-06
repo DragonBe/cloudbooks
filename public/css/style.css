@@ -35,3 +35,29 @@ div.container a.brand {
     margin-left: 0;
     padding: 8px 20px 12px 40px;
 }
+
+.hero-book {
+    background: transparent url('/img/book_backgound_hero.jpg') top left no-repeat scroll;
+    display: block;
+    height: 480px;
+}
+
+.rounded {
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -khtml-border-radius: 25px;
+    border-radius: 25px;
+}
+
+.teaser {
+    display: block;
+    width: 650px;
+    height: 240px;
+    margin: 140px 50px 24px auto;
+    padding: 15px;
+    background-color: rgba(3,3,3,0.6);
+    color: white;
+}
+.teaser .h2 {
+    font-size: 125%;
+}
